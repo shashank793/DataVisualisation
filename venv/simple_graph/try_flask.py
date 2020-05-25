@@ -6,7 +6,7 @@ import pandas as pd
 import dash_core_components as dcc
 
 
-df = pd.read_csv('GraphVisualisationLearning\/diag_data.csv')
+df = pd.read_csv('GraphVisualisationLearning\/sub_demo_data.csv')
 # print(df['seed'][2])
 # print(df['seed'])
 del df['seed']

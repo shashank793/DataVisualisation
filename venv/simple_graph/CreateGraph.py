@@ -9,7 +9,7 @@ import plotly
 
 #load data source
 
-file_path = 'raphVisualisationLearning\/ConfigData.csv'
+file_path = 'GraphVisualisationLearning\/DemoData.csv'
 
 df_data = pd.read_csv(file_path)
 

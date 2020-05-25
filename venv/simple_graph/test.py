@@ -15,7 +15,7 @@ import pandas as pd
 # # set params
 # conn = create_engine(os.environ['DB_URI'])
 
-df = pd.read_csv('GraphVisualisationLearning\/diag_data.csv')
+df = pd.read_csv('GraphVisualisationLearning\/sub_demo_data.csv')
 
 # data = []
 #

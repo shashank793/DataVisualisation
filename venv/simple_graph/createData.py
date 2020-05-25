@@ -196,7 +196,7 @@ if __name__ == "__main__":
     data_handle()
     list = create_list(data_dict)
     header = ['project', 'date', 'config', 'rundir', 'flow_name', 'diag', 'num_of_clones']
-    with open('GraphVisualisationLearning\/ConfigData.csv','w',newline='') as f:
+    with open('GraphVisualisationLearning\/DemoData.csv','w',newline='') as f:
         writer = csv.writer(f,delimiter = ',')
         writer.writerow(header)
         for i in list:

@@ -139,7 +139,7 @@ def create_diag_CSV(list):
         local_list.append(temp_list)
     # print(local_list)
     header = ['project', 'date', 'time_stamp', 'sequence', 'seed','seed_count']
-    with open('GraphVisualisationLearning\/diag_data.csv', 'w', newline='') as f:
+    with open('GraphVisualisationLearning\/sub_demo_data.csv', 'w', newline='') as f:
         writer = csv.writer(f, delimiter=',')
         writer.writerow(header)
         for i in local_list:
